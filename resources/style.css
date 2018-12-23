@@ -8,21 +8,28 @@ h1{
 	color: white;
 	background-image: url("pink_amsterdam.jpg");
 	background-repeat: no-repeat;
-	height: 200px;
+	height: 220px;
 	width: 100%;
 	font-family: 'Amatic SC', cursive;
-
+	margin: 0;
 }
 
 nav{
 	text-align: center;
-	margin-bottom: 40px;
+	margin: 30px;
 }
 
-a{
-	margin: 1.5em;
-	font-size: 30px;
+.nav{
+	margin: 1.3em;
+	font-size: 50px;
 	color: #7b9396;
+	font-family: 'Amatic SC', cursive;
+	text-decoration: none;
+}
+
+h3 a{
+	color: #7b9396;
+	font-size: 28px;
 }
 
 a:hover{

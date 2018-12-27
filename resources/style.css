@@ -66,3 +66,15 @@ p{
 .photos{
 	text-align: center;
 }
+
+.dayone img {
+	width: 300px;
+}
+
+.canal{
+	float: right;
+}
+
+.one {
+	height: 500px;
+}

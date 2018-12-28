@@ -26,13 +26,13 @@ table{
 .nav{
 	margin: 1.3em;
 	font-size: 50px;
-	color: #7b9396;
+	color: #7b9396; /* Grey */
 	font-family: 'Amatic SC', cursive;
 	text-decoration: none;
 }
 
 a{
-	color: #7b9396;
+	color: #7b9396; /* Grey */
 }
 
 h3 a{
@@ -45,7 +45,12 @@ a:hover{
 
 .milan{
 	float: right;
+	max-width: 700px; /* To format the Milan picture for different widths */
 }
+
+#about{
+	margin: 0; /* To make about section align differently to the other H2 headings*/
+} 
 
 h3{
 	margin-top: 7px;
@@ -53,6 +58,7 @@ h3{
 
 h2{
 	font-size: 30px;
+	margin: 40px;
 }
 
 p{
@@ -83,10 +89,6 @@ p{
 	
 }
 
-#diary img {
-	width: 300px;
-}
-
 .image{
 	width: 450px;
 }
@@ -95,6 +97,37 @@ p{
 	float: right;
 }
 
+
 .left{
 	float:left;
+}
+
+.ib{
+	display: inline-block;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 400px;
+}
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }

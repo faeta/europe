@@ -19,6 +19,10 @@ nav{
 	margin: 30px;
 }
 
+table{
+	float: center;
+}
+
 .nav{
 	margin: 1.3em;
 	font-size: 50px;
@@ -27,8 +31,11 @@ nav{
 	text-decoration: none;
 }
 
-h3 a{
+a{
 	color: #7b9396;
+}
+
+h3 a{
 	font-size: 28px;
 }
 
@@ -40,12 +47,12 @@ a:hover{
 	float: right;
 }
 
-h2{
-	background-color: white;
-}
-
 h3{
 	margin-top: 7px;
+}
+
+h2{
+	font-size: 30px;
 }
 
 p{
@@ -67,14 +74,27 @@ p{
 	text-align: center;
 }
 
-.dayone img {
+.backtotop{
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	font-size: 25px;
+	background-color: #8ee8f2;
+	
+}
+
+.diary img {
 	width: 300px;
 }
 
-.canal{
+.image{
+	width: 450px;
+}
+
+.right{
 	float: right;
 }
 
-.one {
-	height: 500px;
+.left{
+	float:left;
 }

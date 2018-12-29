@@ -45,9 +45,6 @@ https://gist.github.com/needim/d15fdc2ac133d8078f7c
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
 
-table{
-  max-width: 600px;
-}
 
 }
 

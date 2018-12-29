@@ -36,6 +36,9 @@ h3 a{
 	font-size: 28px;
 }
 
+.notyet{
+	font-size: 28px;
+}
 a:hover{
 	color: red;
 }
@@ -71,6 +74,13 @@ p{
 	font-size: 20px;
 	bottom: 10px;
 	font-family: 'Amatic SC', cursive;
+	margin: 2px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .photos{
@@ -102,11 +112,6 @@ p{
 
 .ib{
 	display: inline-block;
-}
-
-.center{
-	margin-left: auto;
-	margin-right: auto;
 }
 
 div.gallery {

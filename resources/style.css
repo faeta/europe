@@ -58,7 +58,8 @@ h3{
 
 h2{
 	font-size: 30px;
-	margin: 40px;
+	margin: 30px;
+	display: block;
 }
 
 p{

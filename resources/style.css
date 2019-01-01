@@ -1,5 +1,6 @@
 body{
 	font-family: 'Josefin Slab', serif;
+	margin-bottom: 20px;
 	}
 
 h1{
@@ -43,9 +44,13 @@ a:hover{
 	color: red;
 }
 
+.amsterdam{
+	width:50%;
+}
+
 .milan{
 	float: right;
-	max-width: 700px; /* To format the Milan picture for different widths */
+	width:50%;
 }
 
 #about{

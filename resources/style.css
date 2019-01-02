@@ -60,7 +60,7 @@ a:hover{
 
 .itinerary{
 	text-align: center;
-	margin: 20px;
+	margin: 20px
 }
 
 h3{
@@ -69,7 +69,7 @@ h3{
 
 h2{
 	font-size: 30px;
-	margin: 30px;
+	margin: 30px 30px 30px 0;
 	display: block;
 }
 

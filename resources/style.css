@@ -44,6 +44,8 @@ a:hover{
 	color: red;
 }
 
+/* Top Images */
+
 .amsterdam{
 	width:50%;
 }
@@ -54,14 +56,10 @@ a:hover{
 }
 
 #about{
-	margin: 0; /* To make about section align differently to the other H2 headings*/
+	margin: 0; /* To give About section less margin to the other H2 headings*/
 	padding: 10px;
 } 
 
-.itinerary{
-	text-align: center;
-	margin: 20px
-}
 
 h3{
 	margin-top: 7px;
@@ -75,6 +73,14 @@ h2{
 
 p{
 	font-size: 20px;
+}
+
+/* Itinerary timetable */
+
+
+.itinerary{
+	text-align: center;
+	margin: 20px
 }
 
 .day{
@@ -96,9 +102,7 @@ p{
 	padding: 10px;
 }
 
-.photos{
-	text-align: center;
-}
+/* Fixed "Back to Top" element */
 
 .backtotop{
 	bottom: 0;
@@ -110,14 +114,9 @@ p{
 	display: inline;
 }
 
-.image{
-	width: 450px;
-}
-
 .right{
 	float: right;
 }
-
 
 .left{
 	float:left;
@@ -125,6 +124,12 @@ p{
 
 .ib{
 	display: inline-block;
+}
+
+/* Image Styling */
+
+.photos{
+	text-align: center;
 }
 
 div.gallery {
